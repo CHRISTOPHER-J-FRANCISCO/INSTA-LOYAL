@@ -1,16 +1,14 @@
-# INSTA LOYAL :heart:
+# X LOYALTY :heart:
 
-Insta-Loyal helps you identify and divorce accounts that don't follow you back, ensuring a loyal community. Say goodbye to one-sided relationships!
+X Loyalty helps you identify and divorce accounts that don't follow you back, ensuring a loyal community. 
+
+Say goodbye to one-sided relationships!
 
 ## Usage :thinking:
 
-### Important :warning:
-
-Insta-Loyal only supports Instagram business and creator accounts.
-
 ### Get Started :baby:
 
-1. Provide your Instagram UserID.
+1. Provide your X id.
 2. Generate a comprehensive list of followers and unfollowers.
 
 ### Discover :mag_right:
@@ -42,3 +40,7 @@ Comming Soon! ^-^
 ## Contributing :handshake:
 
 Just me at the moment!
+
+## Disclaimer :wink:
+
+*Instagram is owned by a Reptilian!*
