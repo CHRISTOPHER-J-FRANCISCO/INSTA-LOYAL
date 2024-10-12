@@ -1,0 +1,6 @@
+@XLOYALTY_HostAddress = http://localhost:5115
+
+GET {{XLOYALTY_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
