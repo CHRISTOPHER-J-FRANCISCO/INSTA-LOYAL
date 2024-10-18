@@ -54,12 +54,19 @@ app.MapGet("/GetLists", async (string username, IConfiguration configuration) =>
         foreach (var property in jsonRoot.EnumerateObject())
         {
             jsonDataDictionary.Add(property.Name, property.Value.ToString());
-            Console.WriteLine($"Key: {property.Name}, Value: {property.Value.ToString()}");
+            //Console.WriteLine($"Key: {property.Name}, Value: {property.Value.ToString()}"); Print key-value pair
+        }
+        // Validate the username
+        if (jsonDataDictionary.ContainsKey("id") && jsonDataDictionary.ContainsKey("name") && jsonDataDictionary.ContainsKey("username"))
+        {
+            Console.WriteLine("Username exists!");
         }
         return responseBody;
     }
-    catch (HttpRequestException e)
+    catch (HttpRequestException)
     {
+        Console.WriteLine("Username nonexistant!");
+        // Console.WriteLine(e.GetBaseException()); Print exception
         return await response.Content.ReadAsStringAsync();
     }
 })
